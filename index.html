@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upper-div">
+            <div class="hero-left-side">
+                <h3 class="left-border">Result Generator</h3>
+                <p class="left-border">A Single piece of paper cannot decide your Future.</p>
+            </div>
+            <section class="hero-right-side">
+                <form method="POST">
+                    <div class="input-hold">
+                        <div class="input">
+                            <input type="text" id="phy" placeholder="Physics">
+                        </div>
+                        <div class="input">
+                            <input type="text" id="chem" placeholder="Chemistry" >
+                        </div>
+                        <div class="input">
+                            <input type="text" id="math" placeholder="Mathematics">
+                        </div>
+                        <div class="input">
+                            <input type="text" id="hin" placeholder="Hindi" >
+                        </div>
+                        <div class="input">
+                            <input type="text" id="eng" placeholder="English" >
+                        </div>
+                    </div>
+                    <button class="button" type="button" onclick="grade_calculator()">Generate Result</button>
+                </form>
+            </section>
+        </div>
+        <div class="result-container" id="result" >Result</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
